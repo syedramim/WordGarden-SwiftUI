@@ -121,7 +121,6 @@ struct ContentView: View {
                 revealedWord = revealedWord + "_ "
             }
         }
-        
         revealedWord.removeLast()
         guessedLetter = ""
     }
